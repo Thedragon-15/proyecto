@@ -1,0 +1,92 @@
+<html>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="icono.ico">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- referencia iconos-->
+    <link rel="icon" href="imagenes/icono2.ico">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+
+    <head>
+        <title>GRUPO ATAHUALPA</title>
+    </head>
+    <body>
+
+
+    <!-- // este es el botom de inicio de session -->
+
+
+    <?php 
+session_start();
+require 'empleados/empleados.php';
+if(isset($_SESSION['User']))
+{
+    echo ' Hola: ' . $_SESSION ['User'].'<br/>';
+    echo '<a class="text-dark"" href="logout.php?logout"><button type="button" class="btn btn-outline-light ">Cerrar Seccion</a></button>';
+    
+}   
+else
+{
+    header("location:admin.php");
+}
+?>
+        <!--  aqui termina el  codigo para inicio de session -->
+
+        <body>
+            <center>
+                <h1>Modulo de Gestion
+                </h1>
+            </center>
+
+           
+
+
+<div class="row-btn">
+    <div class="col-btn">
+        <a href="wellcome.php">
+            <img src="imagenes/iconos/registro.png" alt="registro" width="100" height="100">
+                <span>Registro</span>
+            </a>
+
+        </div>
+        <div class="row-btn">
+
+    <div class="col-btn">
+
+        <a href="usuario.php">
+            <img src="imagenes/iconos/usuarios.png" alt="usuario" width="100" height="100">
+                <span>Usuario</span>
+            </a>
+
+        </div>
+
+                        
+
+<div class="row-btn">
+    <div class="col-btn">
+        <a href="proveedor/proveedor.php">
+            <img src="imagenes/iconos/persona.png" alt="registo" width="100" height="100">
+                <span>Proveedor y Beneficiario</span>
+            </a>
+
+
+        </div>
+
+    </div>
+
+
+</div></div></body>
+
+
+            <!-- script -->
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        </body>
+    </html>
+</html>
