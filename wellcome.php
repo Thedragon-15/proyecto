@@ -6,7 +6,7 @@
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <center>
-    <title>GRUPO ATAHUALPA</title>
+    <title>SISTEMA ADMINISTRATIVO</title>
   </center>
   <link rel="icon" href="imagenes/icono2.ico">
   <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
