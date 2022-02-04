@@ -1,22 +1,14 @@
 body {
-    background-color: aqua;
-    background-repeat: initial;
+    background-image: url(../imagenes/fondo.png);
+    background-repeat: cover;
 }
 
-
-.col-btn {
-    width: 50%;
-    display: contents;
+*{
     padding: 1rem;
-     margin: 2rem;
-     left: 10rem;  
-     border-radius: 5rem;
-    
-} 
+    margin:auto; 
+}
+h5,
+h1{
+    color: #fff;
 
-.row-btn {
-    /* border: 1px solid #A32c45;  */
-    width:80%; 
-    margin: 15px; 
-    padding: 0;
 }
