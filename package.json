@@ -1,0 +1,25 @@
+{
+  "name": "sistema-administrativo",
+  "version": "1.0.0",
+  "description": "Sistema administrativo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Thedragon-15/sistema-administrativo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Thedragon-15/sistema-administrativo/issues"
+  },
+  "homepage": "https://github.com/Thedragon-15/sistema-administrativo#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "nodemon": "^2.0.15"
+  },
+  "keywords": []
+}
