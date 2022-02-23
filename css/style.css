@@ -1,5 +1,5 @@
 body {
-    background-image: url(../imagenes/fondo.png);
+    background-image: url(../imagenes/fondo.jpg);
     background-repeat: cover;
 }
 
@@ -10,4 +10,7 @@ body {
 h5,
 h1 {
  color: #fff;
+}
+button-button{
+color: #ffff;
 }
